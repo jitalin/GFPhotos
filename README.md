@@ -1,5 +1,69 @@
 # GFPhotos
 Adapted to iOS8 or above，Use Photos framework to get all the album pictures or video, save the picture to the system album or save to the custom album, delete a custom photo album, etc.; 适应于iOS8以上 ，运用Photos 框架 获取所有相册图片或视频，保存图片到系统相册或同时保存到自定义相册，单独删除某自定义相册的图片等；
+接口如下：/**
+ *   获取相册权限
+ */
+- (void)getRequestAuthorizationWithHandleBlock:(StatusBlock)handleBlock;
+/**
+ *  createdAssetId
+ *
+ *  @param image 要保存的图片
+ *
+ *  @return createdAssetId 图片ID
+ */
+- (NSString*)createdAssetIdWithImage:(UIImage*)image;
+/**
+ *  只在系统相册里添加图片
+ *
+ *  @param createdAssetId 图片ID
+ *
+ *  @return 保存图片
+ */
+-(PHFetchResult<PHAsset *> *)createdAssetsWithCreatedAssetId:(NSString*)createdAssetId;
+
+/**
+ *  createdCollectionId
+ *
+ *  @param title 自定义相册名称
+ *
+ *  @return createdCollectionId 相册ID
+ */
+- (NSString*)createdCollectionIdWithTitle:(NSString*)title;
+/**
+ *  createdCollection
+ *
+ *  @param title 自定义相册名称
+ *
+ *  @return createdCollection 自定义相册
+ */
+-(PHAssetCollection *)createdCollectionWithTilte:(NSString* )title;
+
+
+/**
+ *  保存图片到相册和自定义相册
+ *
+ *  @param image                  保存的图片
+ *  @param createdCollectionTitle 自定义相册名称
+ */
+-(void)saveImageIntoAlbumWithImage:(UIImage*)image CreatedCollectionTitle:(NSString* )createdCollectionTitle;
+
+/**
+ * 获取所有的图片或视频
+ */
+- (void)getAllImagesOrVideosWithMediaType:(PHAssetMediaType)mediaType;
+/**
+ * 获取某个相册里面的所有图片或视频的相关数据
+ */
++ (NSArray*)getAllImagesOrVideosInCollection:(PHAssetCollection *)collection MediaType:(PHAssetMediaType)mediaType;
+
+//删除自定义相册里的图片
+- (void)deletePhotoFormCollection:(PHAssetCollection*)collection;
+/**
+ *  获取所有图片或视频resultBlock
+ *
+ *  @param resultBlock ResultBlock
+ */
+- (void)getResultWithResultBlock:(ResultBlock)resultBlock;
 
 
 DemoCode below:
