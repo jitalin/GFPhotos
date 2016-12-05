@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECD5A5D41DF555D500B0B168 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD5A5D31DF555D500B0B168 /* main.m */; };
+		ECD5A5D71DF555D500B0B168 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD5A5D61DF555D500B0B168 /* AppDelegate.m */; };
+		ECD5A5DD1DF555D500B0B168 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECD5A5DB1DF555D500B0B168 /* Main.storyboard */; };
+		ECD5A5DF1DF555D500B0B168 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECD5A5DE1DF555D500B0B168 /* Assets.xcassets */; };
+		ECD5A5E21DF555D500B0B168 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECD5A5E01DF555D500B0B168 /* LaunchScreen.storyboard */; };
+		ECD5A5ED1DF555D500B0B168 /* GFPhotosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD5A5EC1DF555D500B0B168 /* GFPhotosTests.m */; };
+		ECD5A5F81DF555D500B0B168 /* GFPhotosUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD5A5F71DF555D500B0B168 /* GFPhotosUITests.m */; };
+		ECD5A60A1DF5563500B0B168 /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD5A6061DF5563500B0B168 /* DemoViewController.m */; };
+		ECD5A60B1DF5563500B0B168 /* GFPhotos.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD5A6091DF5563500B0B168 /* GFPhotos.m */; };
+		ECD5A60F1DF55A3700B0B168 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ECD5A60E1DF55A3700B0B168 /* 1.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECD5A5E91DF555D500B0B168 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECD5A5C71DF555D500B0B168 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECD5A5CE1DF555D500B0B168;
+			remoteInfo = GFPhotos;
+		};
+		ECD5A5F41DF555D500B0B168 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECD5A5C71DF555D500B0B168 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECD5A5CE1DF555D500B0B168;
+			remoteInfo = GFPhotos;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ECD5A5CF1DF555D500B0B168 /* GFPhotos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GFPhotos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECD5A5D31DF555D500B0B168 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ECD5A5D51DF555D500B0B168 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ECD5A5D61DF555D500B0B168 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ECD5A5DC1DF555D500B0B168 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ECD5A5DE1DF555D500B0B168 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECD5A5E11DF555D500B0B168 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ECD5A5E31DF555D500B0B168 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECD5A5E81DF555D500B0B168 /* GFPhotosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GFPhotosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECD5A5EC1DF555D500B0B168 /* GFPhotosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GFPhotosTests.m; sourceTree = "<group>"; };
+		ECD5A5EE1DF555D500B0B168 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECD5A5F31DF555D500B0B168 /* GFPhotosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GFPhotosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECD5A5F71DF555D500B0B168 /* GFPhotosUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GFPhotosUITests.m; sourceTree = "<group>"; };
+		ECD5A5F91DF555D500B0B168 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECD5A6051DF5563500B0B168 /* DemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
+		ECD5A6061DF5563500B0B168 /* DemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
+		ECD5A6081DF5563500B0B168 /* GFPhotos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFPhotos.h; sourceTree = "<group>"; };
+		ECD5A6091DF5563500B0B168 /* GFPhotos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFPhotos.m; sourceTree = "<group>"; };
+		ECD5A60E1DF55A3700B0B168 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECD5A5CC1DF555D500B0B168 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECD5A5E51DF555D500B0B168 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECD5A5F01DF555D500B0B168 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECD5A5C61DF555D500B0B168 = {
+			isa = PBXGroup;
+			children = (
+				ECD5A5D11DF555D500B0B168 /* GFPhotos */,
+				ECD5A5EB1DF555D500B0B168 /* GFPhotosTests */,
+				ECD5A5F61DF555D500B0B168 /* GFPhotosUITests */,
+				ECD5A5D01DF555D500B0B168 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECD5A5D01DF555D500B0B168 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECD5A5CF1DF555D500B0B168 /* GFPhotos.app */,
+				ECD5A5E81DF555D500B0B168 /* GFPhotosTests.xctest */,
+				ECD5A5F31DF555D500B0B168 /* GFPhotosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECD5A5D11DF555D500B0B168 /* GFPhotos */ = {
+			isa = PBXGroup;
+			children = (
+				ECD5A60E1DF55A3700B0B168 /* 1.jpg */,
+				ECD5A6071DF5563500B0B168 /* GFPhotos */,
+				ECD5A5D51DF555D500B0B168 /* AppDelegate.h */,
+				ECD5A5D61DF555D500B0B168 /* AppDelegate.m */,
+				ECD5A6051DF5563500B0B168 /* DemoViewController.h */,
+				ECD5A6061DF5563500B0B168 /* DemoViewController.m */,
+				ECD5A5DB1DF555D500B0B168 /* Main.storyboard */,
+				ECD5A5DE1DF555D500B0B168 /* Assets.xcassets */,
+				ECD5A5E01DF555D500B0B168 /* LaunchScreen.storyboard */,
+				ECD5A5E31DF555D500B0B168 /* Info.plist */,
+				ECD5A5D21DF555D500B0B168 /* Supporting Files */,
+			);
+			path = GFPhotos;
+			sourceTree = "<group>";
+		};
+		ECD5A5D21DF555D500B0B168 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECD5A5D31DF555D500B0B168 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ECD5A5EB1DF555D500B0B168 /* GFPhotosTests */ = {
+			isa = PBXGroup;
+			children = (
+				ECD5A5EC1DF555D500B0B168 /* GFPhotosTests.m */,
+				ECD5A5EE1DF555D500B0B168 /* Info.plist */,
+			);
+			path = GFPhotosTests;
+			sourceTree = "<group>";
+		};
+		ECD5A5F61DF555D500B0B168 /* GFPhotosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ECD5A5F71DF555D500B0B168 /* GFPhotosUITests.m */,
+				ECD5A5F91DF555D500B0B168 /* Info.plist */,
+			);
+			path = GFPhotosUITests;
+			sourceTree = "<group>";
+		};
+		ECD5A6071DF5563500B0B168 /* GFPhotos */ = {
+			isa = PBXGroup;
+			children = (
+				ECD5A6081DF5563500B0B168 /* GFPhotos.h */,
+				ECD5A6091DF5563500B0B168 /* GFPhotos.m */,
+			);
+			path = GFPhotos;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECD5A5CE1DF555D500B0B168 /* GFPhotos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECD5A5FC1DF555D500B0B168 /* Build configuration list for PBXNativeTarget "GFPhotos" */;
+			buildPhases = (
+				ECD5A5CB1DF555D500B0B168 /* Sources */,
+				ECD5A5CC1DF555D500B0B168 /* Frameworks */,
+				ECD5A5CD1DF555D500B0B168 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GFPhotos;
+			productName = GFPhotos;
+			productReference = ECD5A5CF1DF555D500B0B168 /* GFPhotos.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECD5A5E71DF555D500B0B168 /* GFPhotosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECD5A5FF1DF555D500B0B168 /* Build configuration list for PBXNativeTarget "GFPhotosTests" */;
+			buildPhases = (
+				ECD5A5E41DF555D500B0B168 /* Sources */,
+				ECD5A5E51DF555D500B0B168 /* Frameworks */,
+				ECD5A5E61DF555D500B0B168 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECD5A5EA1DF555D500B0B168 /* PBXTargetDependency */,
+			);
+			name = GFPhotosTests;
+			productName = GFPhotosTests;
+			productReference = ECD5A5E81DF555D500B0B168 /* GFPhotosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ECD5A5F21DF555D500B0B168 /* GFPhotosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECD5A6021DF555D500B0B168 /* Build configuration list for PBXNativeTarget "GFPhotosUITests" */;
+			buildPhases = (
+				ECD5A5EF1DF555D500B0B168 /* Sources */,
+				ECD5A5F01DF555D500B0B168 /* Frameworks */,
+				ECD5A5F11DF555D500B0B168 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECD5A5F51DF555D500B0B168 /* PBXTargetDependency */,
+			);
+			name = GFPhotosUITests;
+			productName = GFPhotosUITests;
+			productReference = ECD5A5F31DF555D500B0B168 /* GFPhotosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECD5A5C71DF555D500B0B168 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "高飞";
+				TargetAttributes = {
+					ECD5A5CE1DF555D500B0B168 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					ECD5A5E71DF555D500B0B168 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = ECD5A5CE1DF555D500B0B168;
+					};
+					ECD5A5F21DF555D500B0B168 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = ECD5A5CE1DF555D500B0B168;
+					};
+				};
+			};
+			buildConfigurationList = ECD5A5CA1DF555D500B0B168 /* Build configuration list for PBXProject "GFPhotos" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECD5A5C61DF555D500B0B168;
+			productRefGroup = ECD5A5D01DF555D500B0B168 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECD5A5CE1DF555D500B0B168 /* GFPhotos */,
+				ECD5A5E71DF555D500B0B168 /* GFPhotosTests */,
+				ECD5A5F21DF555D500B0B168 /* GFPhotosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECD5A5CD1DF555D500B0B168 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECD5A5E21DF555D500B0B168 /* LaunchScreen.storyboard in Resources */,
+				ECD5A5DF1DF555D500B0B168 /* Assets.xcassets in Resources */,
+				ECD5A5DD1DF555D500B0B168 /* Main.storyboard in Resources */,
+				ECD5A60F1DF55A3700B0B168 /* 1.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECD5A5E61DF555D500B0B168 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECD5A5F11DF555D500B0B168 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECD5A5CB1DF555D500B0B168 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECD5A60B1DF5563500B0B168 /* GFPhotos.m in Sources */,
+				ECD5A5D71DF555D500B0B168 /* AppDelegate.m in Sources */,
+				ECD5A5D41DF555D500B0B168 /* main.m in Sources */,
+				ECD5A60A1DF5563500B0B168 /* DemoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECD5A5E41DF555D500B0B168 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECD5A5ED1DF555D500B0B168 /* GFPhotosTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECD5A5EF1DF555D500B0B168 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECD5A5F81DF555D500B0B168 /* GFPhotosUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECD5A5EA1DF555D500B0B168 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECD5A5CE1DF555D500B0B168 /* GFPhotos */;
+			targetProxy = ECD5A5E91DF555D500B0B168 /* PBXContainerItemProxy */;
+		};
+		ECD5A5F51DF555D500B0B168 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECD5A5CE1DF555D500B0B168 /* GFPhotos */;
+			targetProxy = ECD5A5F41DF555D500B0B168 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ECD5A5DB1DF555D500B0B168 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECD5A5DC1DF555D500B0B168 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ECD5A5E01DF555D500B0B168 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECD5A5E11DF555D500B0B168 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECD5A5FA1DF555D500B0B168 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ECD5A5FB1DF555D500B0B168 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECD5A5FD1DF555D500B0B168 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GFPhotos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sunyard.GFPhotos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ECD5A5FE1DF555D500B0B168 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GFPhotos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sunyard.GFPhotos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ECD5A6001DF555D500B0B168 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GFPhotosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sunyard.GFPhotosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GFPhotos.app/GFPhotos";
+			};
+			name = Debug;
+		};
+		ECD5A6011DF555D500B0B168 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GFPhotosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sunyard.GFPhotosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GFPhotos.app/GFPhotos";
+			};
+			name = Release;
+		};
+		ECD5A6031DF555D500B0B168 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GFPhotosUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sunyard.GFPhotosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GFPhotos;
+			};
+			name = Debug;
+		};
+		ECD5A6041DF555D500B0B168 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GFPhotosUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sunyard.GFPhotosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GFPhotos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECD5A5CA1DF555D500B0B168 /* Build configuration list for PBXProject "GFPhotos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECD5A5FA1DF555D500B0B168 /* Debug */,
+				ECD5A5FB1DF555D500B0B168 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECD5A5FC1DF555D500B0B168 /* Build configuration list for PBXNativeTarget "GFPhotos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECD5A5FD1DF555D500B0B168 /* Debug */,
+				ECD5A5FE1DF555D500B0B168 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ECD5A5FF1DF555D500B0B168 /* Build configuration list for PBXNativeTarget "GFPhotosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECD5A6001DF555D500B0B168 /* Debug */,
+				ECD5A6011DF555D500B0B168 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ECD5A6021DF555D500B0B168 /* Build configuration list for PBXNativeTarget "GFPhotosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECD5A6031DF555D500B0B168 /* Debug */,
+				ECD5A6041DF555D500B0B168 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECD5A5C71DF555D500B0B168 /* Project object */;
+}

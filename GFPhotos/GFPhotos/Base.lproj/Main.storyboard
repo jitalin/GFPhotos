@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--Demo View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="DemoViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N7X-ML-u4k">
+                                <rect key="frame" x="9" y="264" width="120" height="30"/>
+                                <state key="normal" title="只保存到系统相册"/>
+                                <connections>
+                                    <action selector="saveImageOnlyToSystemCollection:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xEg-jQ-Zfn"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uCt-PG-Sr0">
+                                <rect key="frame" x="9" y="302" width="225" height="30"/>
+                                <state key="normal" title="同时保存到系统相册和自定义相册"/>
+                                <connections>
+                                    <action selector="saveImageBothToCustomCollection:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eKw-Y9-5Gg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CgT-0l-Vsj">
+                                <rect key="frame" x="9" y="340" width="135" height="30"/>
+                                <state key="normal" title="获取所有相册的图片"/>
+                                <connections>
+                                    <action selector="getAllPhotos:" destination="BYZ-38-t0r" eventType="touchUpInside" id="V5r-8l-3du"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QS7-iB-len">
+                                <rect key="frame" x="9" y="378" width="135" height="30"/>
+                                <state key="normal" title="获取所有相册的视频"/>
+                                <connections>
+                                    <action selector="getAllVideos:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4sN-90-aOC"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="5wh-Ag-Oqe">
+                                <rect key="frame" x="9" y="29" width="302" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="N0U-Ad-XjC"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jbO-XN-tjs">
+                                <rect key="frame" x="9" y="416" width="225" height="30"/>
+                                <state key="normal" title="删除某自定义相册的最后一张图片"/>
+                                <connections>
+                                    <action selector="deleteLastPhotoInCollection:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UUT-Z8-NL4"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="N7X-ML-u4k" firstAttribute="top" secondItem="5wh-Ag-Oqe" secondAttribute="bottom" constant="35" id="6NX-W7-UR0"/>
+                            <constraint firstItem="jbO-XN-tjs" firstAttribute="leading" secondItem="QS7-iB-len" secondAttribute="leading" id="Av9-su-vBU"/>
+                            <constraint firstItem="5wh-Ag-Oqe" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="9" id="COX-9G-xYA"/>
+                            <constraint firstItem="N7X-ML-u4k" firstAttribute="top" secondItem="5wh-Ag-Oqe" secondAttribute="bottom" constant="155" id="Gv0-Pn-nvr"/>
+                            <constraint firstItem="5wh-Ag-Oqe" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="9" id="Izr-JS-PUd"/>
+                            <constraint firstItem="QS7-iB-len" firstAttribute="top" secondItem="CgT-0l-Vsj" secondAttribute="bottom" constant="8" id="KPt-g3-PQS"/>
+                            <constraint firstItem="N7X-ML-u4k" firstAttribute="leading" secondItem="5wh-Ag-Oqe" secondAttribute="leading" id="Ys8-Q2-6Ye"/>
+                            <constraint firstItem="CgT-0l-Vsj" firstAttribute="leading" secondItem="uCt-PG-Sr0" secondAttribute="leading" id="bou-bf-BlB"/>
+                            <constraint firstItem="uCt-PG-Sr0" firstAttribute="top" secondItem="N7X-ML-u4k" secondAttribute="bottom" constant="8" id="gkK-wJ-VG8"/>
+                            <constraint firstItem="uCt-PG-Sr0" firstAttribute="leading" secondItem="N7X-ML-u4k" secondAttribute="leading" id="gl0-zL-NXS"/>
+                            <constraint firstAttribute="trailing" secondItem="5wh-Ag-Oqe" secondAttribute="trailing" constant="9" id="nOL-bN-ple"/>
+                            <constraint firstItem="jbO-XN-tjs" firstAttribute="top" secondItem="QS7-iB-len" secondAttribute="bottom" constant="8" id="vad-DR-uNK"/>
+                            <constraint firstItem="QS7-iB-len" firstAttribute="leading" secondItem="CgT-0l-Vsj" secondAttribute="leading" id="xLE-5W-mRC"/>
+                            <constraint firstItem="CgT-0l-Vsj" firstAttribute="top" secondItem="uCt-PG-Sr0" secondAttribute="bottom" constant="8" id="zMs-Qg-Goa"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="Gv0-Pn-nvr"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="imageView" destination="5wh-Ag-Oqe" id="Zgp-Hx-Vch"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3" y="303"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="1.jpg" width="560" height="600"/>
+    </resources>
+</document>
